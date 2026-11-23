@@ -18,6 +18,11 @@ h1 {
 
 header {
     background-color: #000000;
+    background-image: url("../images/cinema-banner.svg");
+    background-position: center;
+    background-size: cover;
+    padding: 12px;
+    border-bottom: 2px solid #f5c518;
 }
 
 header img {
@@ -55,10 +60,36 @@ nav a {
     color: deepskyblue;
 }
 
+.movie {
+    background-color: #252525;
+    border: 2px solid deepskyblue;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+.movie img {
+    width: 200px;
+    border: 2px solid skyblue;
+    border-radius: 8px;
+}
+
+.movie:hover {
+    background-color: rgba(190, 190, 190, 0.316);
+    border-color: skyblue;
+    box-shadow: 0 8px 20px rgba(245, 197, 24, 0.22);
+}
+
                     /*===== עמוד אודות =====*/
 
 .about img {
     width: 200px;
+    height: 200px;
+    border: 3px solid deepskyblue;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 14px rgba(245, 197, 24, 0.25);
 }
 
 .about h2 span {
@@ -88,3 +119,6 @@ footer span {
     color: deepskyblue;
     font-weight: bold;
 }
+
+
+
